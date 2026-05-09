@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tarefa 2 do curso de Fundamentos da Web</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -34,72 +35,36 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
 
     <div class="d-flex flex-column flex-md-row flex-grow-1">
-
-      <nav class="text-center text-md-start pe-md-3 pt-2" style="min-width: 12em;">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </nav>
-
       <main class="flex-grow-1 p-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident necessitatibus repellendus rerum
-        quod consequuntur laboriosam, hic commodi nam, deserunt dignissimos minus quae sapiente aperiam explicabo
-        magnam. Ipsa, saepe inventore!
-        Repellendus animi architecto suscipit velit voluptas aliquid, vitae, alias, sequi adipisci a perspiciatis
-        assumenda eum sint amet perferendis quo quidem beatae quisquam voluptatum necessitatibus. Nostrum sapiente
-        asperiores enim ullam tempore!
-        Perspiciatis totam rem omnis minima quasi delectus necessitatibus, ut mollitia quia asperiores obcaecati a,
-        quisquam aperiam consectetur ad reiciendis sapiente. Voluptates voluptatum quis maiores. Nisi dignissimos
-        corporis modi fugit tempore?
-        Magnam reprehenderit quas ex aut praesentium facere omnis consectetur esse, perspiciatis delectus, accusamus
-        molestias non, asperiores eius suscipit officia quisquam facilis ipsam? Autem eius at numquam! Facere laboriosam
-        earum veniam.
-        Repellat maiores eligendi aut distinctio doloribus aperiam eaque, voluptatem corrupti possimus doloremque. Magni
-        sed ab omnis fugit maxime, rem ullam odit, optio libero pariatur modi repellendus, dolore aliquam fugiat beatae.
-        Doloremque sunt veritatis necessitatibus commodi delectus? Esse labore sint provident ab magnam voluptatibus
-        dolore, suscipit deleniti non ipsum quis voluptate! Reiciendis placeat perferendis, perspiciatis est
-        consequuntur corporis assumenda a maiores.
-        Repellat similique assumenda deleniti adipisci ad, mollitia obcaecati nulla amet provident enim natus totam ea
-        nam facilis, minima labore saepe. Quasi ducimus voluptatibus earum necessitatibus eius enim tenetur delectus
-        odio.
-        Architecto voluptate, ipsum necessitatibus cum esse eaque provident hic beatae deserunt optio qui molestias,
-        neque ut incidunt ullam, harum velit aut error accusantium voluptatum. Nobis impedit modi sequi porro molestias.
-        Temporibus aspernatur minima veritatis harum dolorum id ab dolorem excepturi ratione, consequuntur error odit
-        eum illum. Fuga culpa quod delectus possimus sed accusantium, aut quisquam quo ducimus eos vero veritatis?
-        Aliquam dignissimos facilis nisi labore est vero incidunt aperiam, temporibus dicta voluptatum sapiente fugit!
-        Labore ullam quaerat doloremque neque quae molestiae voluptatibus laborum quidem veritatis nisi quam, unde alias
-        et.
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5 text-center">
+            <h1 class="display-5 fw-bold">Contador</h1>
+            <p class="fs-4">Utilize os botões abaixo para registrar uma contagem.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 text-md-end">
+              <button class="btn btn-primary btn-lg bg-danger border-0" type="button"><i
+                  class="bi bi-dash-circle-fill m-2"></i>1</button>
+            </div>
+            <div class="col-12 col-md-6">
+              <button class="btn btn-primary btn-lg bg-success border-0" type="button"><i
+                  class="bi bi-plus-circle-fill m-2"></i>1</button>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1 class="my-3 display-2">0</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
-
     </div>
 
     <footer class="bg-secondary-subtle text-black text-center py-3 fst-italic opacity-50">
