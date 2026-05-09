@@ -41,29 +41,33 @@
 
     <div class="d-flex flex-column flex-md-row flex-grow-1">
       <main class="flex-grow-1 p-3">
+        <!-- Jumbotron -->
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
           <div class="container-fluid py-5 text-center">
             <h1 class="display-5 fw-bold">Contador</h1>
             <p class="fs-4">Utilize os botões abaixo para registrar uma contagem.</p>
           </div>
         </div>
+
         <div class="container">
+          <!-- botoes -->
           <div class="row">
-            <div class="col-12 col-md-6 text-md-end">
-              <button class="btn btn-primary btn-lg bg-danger border-0" type="button"><i
-                  class="bi bi-dash-circle-fill m-2"></i>1</button>
-            </div>
-            <div class="col-12 col-md-6">
-              <button class="btn btn-primary btn-lg bg-success border-0" type="button"><i
+            <div class="col-12 col-md-6 m-0 p-0">
+              <button class="btn btn-primary btn-lg bg-success border-0 w-100" type="button"><i
                   class="bi bi-plus-circle-fill m-2"></i>1</button>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h1 class="my-3 display-2">0</h1>
-              </div>
+            <div class="col-12 col-md-6 m-0 p-0">
+              <button class="btn btn-primary btn-lg bg-danger border-0 w-100" type="button"><i
+                  class="bi bi-dash-circle-fill m-2"></i>1</button>
             </div>
           </div>
-        </div>
+
+          <!-- acumulador -->
+          <div class="row">
+            <div class="col-12 mt-2">
+              <h1 class="display-2 text-center fw-bold">0</h1>
+            </div>
+          </div>
       </main>
     </div>
 
